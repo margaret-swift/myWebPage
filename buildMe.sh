@@ -2,6 +2,9 @@
 # Automatically pull and push to GIT, as well as ng build
 echo
 echo
+echo copying CV into assets folder...
+cp ../Margaret_Swift_CV.pdf src/assets/cv.pdf
+
 echo building web page...
 ng build
 
