@@ -16,7 +16,7 @@ const routes: Routes = [
   { path: 'cv', component: CVComponent },
   { path: 'contact', component: ContactComponent },
   { path: '',
-    redirectTo: '/home',
+    redirectTo: 'home',
     pathMatch: 'full'
   }
 ];

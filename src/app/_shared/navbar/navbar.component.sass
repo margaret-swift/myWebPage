@@ -1,18 +1,31 @@
-.nav-link
-	font-size: 16pt
+$sticky-nav-height: 60px
+$background-color: #FFFCED
+
 a
-	color: white
-	font-size: 20px
-.myClass
+	text-decoration: none
+	font-size: 14px
+	padding: 10px
+	letter-spacing: 1px
+	color: lightgray
+a:hover
+	color: black
+
+.active
+	font-weight: bold
+	color: black
+	border-bottom: 1px solid
+
+.navbox
 	padding-left: 5px
 	padding-right: 5px
+	background-color: inherit
 
-/* sticky nav stuff */
-$sticky-nav-height: 60px
-
-.sticky-nav
-	background-color: purple
-	height: $sticky-nav-height
-	 
 .sticky-nav-wrapper 
 	min-height: $sticky-nav-height
+	background-color: $background-color
+
+
+.sticky-nav
+	background-color: inherit
+	box-shadow: none
+	height: $sticky-nav-height

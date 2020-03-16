@@ -10,7 +10,6 @@ export class TitleComponent implements OnInit {
   @Input() title : string;
   @Input() subtitle : string;
   @Input() text : string;
-  @Input() background : string;
   
   constructor() { }
 
