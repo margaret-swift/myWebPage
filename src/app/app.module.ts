@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { MzParallaxModule, MzNavbarModule } from 'ngx-materialize';
 import { StickyNavModule } from 'ng2-sticky-nav';
-import { StickybitsModule } from 'ngx-stickybits';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -17,6 +16,7 @@ import { ResearchComponent } from './_components/research/research.component';
 import { MediaComponent } from './_components/media/media.component';
 import { ContactComponent } from './_components/contact/contact.component';
 import { CVComponent } from './_components/cv/cv.component';
+
 
 
 
@@ -35,8 +35,7 @@ import { CVComponent } from './_components/cv/cv.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MzParallaxModule, MzNavbarModule,
-    StickyNavModule, StickybitsModule,
+    StickyNavModule,
     FlexLayoutModule
   ],
   providers: [],

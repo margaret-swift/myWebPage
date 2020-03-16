@@ -1,7 +1,7 @@
 #!/bin/bash
 # Automatically pull and push to GIT, as well as ng build
 echo
-echo ------------------------------------------------
+echo
 echo building web page...
 ng build
 
@@ -19,7 +19,7 @@ git commit -m 'latest webupdate'
 git push
 
 echo done
-echo ------------------------------------------------
+echo
 echo
 
 #eof
