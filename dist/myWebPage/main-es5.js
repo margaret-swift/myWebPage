@@ -125,7 +125,7 @@
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"title\"> Media </div>\n<div class=\"text\">Coming soon. </div>";
+    __webpack_exports__["default"] = "<div class=\"title\"> Media </div>\n<div class=\"text\" style=\"text-align:center\">Coming soon.</div>";
     /***/
   },
 

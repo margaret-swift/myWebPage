@@ -84,7 +84,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"title\"> Media </div>\n<div class=\"text\">Coming soon. </div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"title\"> Media </div>\n<div class=\"text\" style=\"text-align:center\">Coming soon.</div>");
 
 /***/ }),
 
