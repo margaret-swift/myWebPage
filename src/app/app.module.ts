@@ -5,6 +5,7 @@ import { MzParallaxModule, MzNavbarModule } from 'ngx-materialize';
 import { StickyNavModule } from 'ng2-sticky-nav';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -38,7 +39,8 @@ import { CVComponent } from './_components/cv/cv.component';
     AppRoutingModule,
     StickyNavModule,
     FlexLayoutModule,
-    NgxExtendedPdfViewerModule
+    NgxExtendedPdfViewerModule,
+    MDBBootstrapModule
   ],
   providers: [],
   bootstrap: [AppComponent]
