@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { MzParallaxModule, MzNavbarModule } from 'ngx-materialize';
 import { StickyNavModule } from 'ng2-sticky-nav';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 
