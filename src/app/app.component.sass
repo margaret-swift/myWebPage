@@ -2,48 +2,66 @@ $primary-font: 'Montserrat', sans-serif
 $secondary-font: 'Open Sans', sans-serif
 $active-color: #0272bc
 $background-color: #FFFCED
+$my-pad: 10%
 
-::ng-deep .site-header 
-    font-family: $primary-font
-    background-color: inherit
-    font-size: 25px
-    letter-spacing: 3px
-    text-align: center
-    vertical-align: center
-    padding: 3%
-
-::ng-deep .title 
-    font-family: $primary-font
-    font-size: 20px
-    padding: 5%
-    text-align: center
-
-::ng-deep .subtitle 
-    font-family: $primary-font
-    font-size: 15px
-    font-style: italic
-
-::ng-deep .text
-    font-family: $secondary-font
-    font-size: 15px
-    text-align: justify
-
-::ng-deep .picture 
-    padding-top: 5%
-
-::ng-deep .side 
-    width: 50%
 
 ::ng-deep a
     text-decoration: none
-    color: hotpink
+    color:          hotpink
 ::ng-deep a:hover
-    text-decoration: none
-    color: lightblue
+    text-decoration:none
+    color:          lightblue
+::ng-deep body
+    background-color:$background-color
 
-.content-box
-    text-align: left
-    padding: 0% 25% 500px 25% // top left bottom right
-.app
-    background-color: $background-color
 
+::ng-deep .site-header 
+    font-family:    $primary-font
+    font-size:      25px
+    background-color:inherit
+    letter-spacing: 3px
+    text-align:     left
+    vertical-align: center
+    width:          200%
+
+::ng-deep .title 
+    font-family:    $primary-font
+    font-size:      20px
+    text-align:     left
+    padding-bottom: 5%
+
+::ng-deep .subtitle 
+    font-family:    $primary-font
+    font-size:      15px
+    font-style:     italic
+
+::ng-deep .text
+    font-family:    $secondary-font
+    font-size:      15px
+    text-align:     justify
+
+::ng-deep .picture 
+    padding-top:    5%
+
+
+// Flex content
+.small
+    background-color: purple
+.top
+    padding-top:    3%
+    padding-bottom: 3%   
+.nav-sec
+    text-align:     right
+.title-sec
+    align-items:    center
+    display:        flex
+    padding-left:   5%
+    text-align:     left
+.main
+    margin-left:    15%
+    margin-right:   15%
+    border-left:    1px dashed black
+    padding-left:   5%
+    padding-right:  25%
+.below
+    height: 100%

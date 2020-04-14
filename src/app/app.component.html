@@ -5,9 +5,29 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
 
 <div class='app'>
-	<title-section [title]="title" [subtitle]="subtitle"></title-section>
-	<app-navbar></app-navbar> 
-	<div class='content-box'>
-		<router-outlet></router-outlet>
-	</div>
+
+  	<div class="top" 
+       fxLayout="row" 
+       fxLayout.xs="column" 
+       ngClass.xs="small"
+       fxFlexFill >
+
+      <div fxFlex="15" class="nav-sec" fxFlex.xs="55">
+          <app-navbar></app-navbar>
+      </div>
+      <div fxFlex="30" class="title-sec" >
+          <title-section [title]="title"></title-section>
+      </div>
+
+  	</div>
+
+
+    <div class="below">
+      <div class="main" 
+         fxLayout="row" 
+         fxFlexFill >
+        <router-outlet></router-outlet>
+    	</div>
+  </div>
+
 </div>

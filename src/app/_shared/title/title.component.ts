@@ -8,7 +8,6 @@ import { Component, OnInit, Input} from '@angular/core';
 export class TitleComponent implements OnInit {
 
   @Input() title : string;
-  @Input() subtitle : string;
   @Input() text : string;
   
   constructor() { }

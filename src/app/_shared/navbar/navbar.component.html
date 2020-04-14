@@ -1,10 +1,7 @@
-<div class="sticky-nav-wrapper">
-  <nav class="sticky-nav" ngStickyNav fxLayout="row" fxLayoutAlign="center" fxLayoutGap="16px">
-    <div class="navbox"><a routerLink="home" routerLinkActive="active" href="#">HOME</a></div>
-    <div class="navbox"><a routerLink="about" routerLinkActive="active" href="#">ABOUT</a></div>
-    <div class="navbox"><a routerLink="projects" routerLinkActive="active" href="#">PROJECTS</a></div>
-    <div class="navbox"><a routerLink="media" routerLinkActive="active" href="#">MEDIA</a></div>
-    <div class="navbox"><a routerLink="cv" routerLinkActive="active" href="#">CV</a></div>
-    <div class="navbox"><a routerLink="contact" routerLinkActive="active" href="#">CONTACT</a></div>
-  </nav>
+<div class="navbox">
+	<div *ngFor="let tab of tabs"> 
+		<a [routerLink]="tab.name" routerLinkActive="active" href="#">	
+			{{tab.title}}
+		</a>
+	</div>
 </div>
